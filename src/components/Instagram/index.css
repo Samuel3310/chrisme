@@ -1,0 +1,15 @@
+.image_display {
+  display: none !important;
+}
+
+.image_cont:hover .image_display {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.image_cont .image_display .image_text {
+  color: #fff;
+}
