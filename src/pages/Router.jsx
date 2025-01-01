@@ -7,6 +7,7 @@ import Various from "./various";
 import Home from "./home";
 import AboutPage from "./about/About";
 import NotFoundPage from "./not-found/NotFound";
+import Project from "./project/Project";
 const Router = () => {
   return (
     <BrowserRouter>
@@ -16,6 +17,8 @@ const Router = () => {
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/various" element={<AboutPage />} />
+        <Route path="/project" element={<Project />} />
+        <Route path="/project/:id" element={<Project />} />
 
         <Route path="*" element={<NotFoundPage />} />
       </Routes>

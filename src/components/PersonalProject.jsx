@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const PortfolioItem = ({
   href,
   bgColor,
@@ -8,8 +10,8 @@ const PortfolioItem = ({
   projectName,
 }) => (
   <div className="list-item-portfolio">
-    <a
-      href={href}
+    <Link
+      to={href}
       className="internal animate--me animate--init"
       style={{ backgroundColor: bgColor }}
       data-page={projectName}
@@ -56,7 +58,7 @@ const PortfolioItem = ({
           </p>
         </span>
       </strong>
-    </a>
+    </Link>
   </div>
 );
 
@@ -69,7 +71,7 @@ const PersonalProject = () => (
       </div>
       <div className="list">
         <PortfolioItem
-          href="project/basicux"
+          href="/project"
           bgColor="#0f0f0f"
           imageSrc="/assets/images/tile_basicux"
           imageAlt="Basic UX"
@@ -78,7 +80,7 @@ const PersonalProject = () => (
           projectName="PROJECT_BASICUX"
         />
         <PortfolioItem
-          href="project/triniso"
+          href="/project"
           bgColor="#21211e"
           imageSrc="/assets/images/tile_triniso"
           imageAlt="Triniso"
@@ -87,7 +89,7 @@ const PersonalProject = () => (
           projectName="PROJECT_TRINISO"
         />
         <PortfolioItem
-          href="project/symova"
+          href="/project"
           bgColor="#e6e6e6"
           imageSrc="/assets/images/tile_symova"
           imageAlt="Symova"
@@ -96,7 +98,7 @@ const PersonalProject = () => (
           projectName="PROJECT_SYMOVA"
         />
         <PortfolioItem
-          href="project/pmr"
+          href="/project/pmr"
           bgColor="#009091"
           imageSrc="/assets/images/tile_pmr"
           imageAlt="PMR"
@@ -105,7 +107,7 @@ const PersonalProject = () => (
           projectName="PROJECT_PMR"
         />
         <PortfolioItem
-          href="project/sonicsmith"
+          href="/project/sonicsmith"
           bgColor="#4e4c4c"
           imageSrc="/assets/images/tile_sonicsmith"
           imageAlt="Sonicsmith"
@@ -114,7 +116,7 @@ const PersonalProject = () => (
           projectName="PROJECT_SONICSMITH"
         />
         <PortfolioItem
-          href="project/lessdoing"
+          href="/project/lessdoing"
           bgColor="#4c58d9"
           imageSrc="/assets/images/tile_lessdoing"
           imageAlt="Less Doing"
