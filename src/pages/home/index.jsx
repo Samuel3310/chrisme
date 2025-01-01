@@ -4,12 +4,13 @@ import HomeInstagram from "../../components/Instagram/Homeinstag";
 import QuickContact from "../../components/QuickContact";
 
 import HomePages from "../../components/Header";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
       <div className="container loaded">
-        <a href="contact" class="contact-link internal">
+        <Link to="/contact" className="contact-link internal">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -28,7 +29,7 @@ const Home = () => {
             ></path>
           </svg>
           <span>Contact me</span>
-        </a>
+        </Link>
 
         <HomePages />
         <PersonalProjects />
