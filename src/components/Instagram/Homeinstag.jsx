@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import { FaHeartbeat } from "react-icons/fa";
 const instagramPosts = [
   {
     id: "2285070878138013243_258980345",
@@ -89,9 +88,6 @@ const HomeInstagram = () => {
                     {post.description}
                   </span>
                   <span className="count">
-                    <span className="icon icon-heart">
-                      <FaHeartbeat color="red" size={24}/>
-                    </span>
                     <span>{post.likesCount}</span>
                   </span>
                 </strong>
