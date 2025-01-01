@@ -1,5 +1,3 @@
-import React from "react";
-
 const CaseStudy = () => {
   return (
     <section className="case-study-top">
