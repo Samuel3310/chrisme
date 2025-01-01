@@ -6,6 +6,7 @@ import ContactForm from "./contact";
 import Various from "./various";
 import Home from "./home";
 import AboutPage from "./about/About";
+import NotFoundPage from "./not-found/NotFound";
 const Router = () => {
   return (
     <BrowserRouter>
@@ -16,7 +17,7 @@ const Router = () => {
         <Route path="/contact" element={<ContactForm />} />
         <Route path="/various" element={<AboutPage />} />
 
-        <Route path="*" element={<div>Page Not Found</div>} />
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </BrowserRouter>

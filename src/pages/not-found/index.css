@@ -1,0 +1,39 @@
+/* NotFoundPage.css */
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+.not-found-title {
+  font-size: 6rem;
+  color: #ff6b6b;
+  margin: 0;
+}
+
+.not-found-message {
+  font-size: 1.5rem;
+  color: #333;
+  margin: 1rem 0;
+}
+
+.not-found-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff6b6b;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.not-found-link:hover {
+  background-color: #e05656;
+}

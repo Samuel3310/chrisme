@@ -17,14 +17,17 @@ const Footer = () => {
             <ul className="contact-links">
               <li>
                 E:{" "}
-                <a className="special" href="mailto:damian.watracz@gmail.com">
-                  damian.watracz@gmail.com
+                <a
+                  className="special"
+                  href="mailto:mochriscreations@gmail.com "
+                >
+                  mochriscreations@gmail.com
                 </a>
               </li>
               <li>
                 P:{" "}
                 <span className="gray-darkest" content="noindex">
-                  +48-517-512-348
+                  +234-816-449-8431
                 </span>
               </li>
             </ul>
@@ -95,7 +98,7 @@ const Footer = () => {
             <ul className="social-links">
               <li>
                 <a
-                  href="https://dribbble.com/damianwatracz"
+                  href="https://dribbble.com/Mochris-Creations"
                   className="special"
                   target="_blank"
                 >
@@ -104,7 +107,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/damianwatracz"
+                  href="https://www.instagram.com/mochris_creations/"
                   className="special"
                   target="_blank"
                 >
@@ -113,7 +116,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.behance.net/damianwatracz"
+                  href="https://www.behance.net/christianmoses4"
                   className="special"
                   target="_blank"
                 >
@@ -122,11 +125,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/damianwatracz"
+                  href="https://wa.me/2347012143026"
                   className="special"
                   target="_blank"
                 >
-                  LinkedIn
+                  Whatsapp
                 </a>
               </li>
             </ul>
@@ -152,15 +155,10 @@ const Footer = () => {
               </svg>
             </a>
             <p className="small copyright-text">
-              © 2008 — 2019 Damian Watracz.
+              © 2018 — {new Date().getFullYear()} Christian Moses
               <br />
-              Made with{" "}
-              <span className="icon icon-heart">
-                <svg>
-                  <use xlinkHref="#icon_heart"></use>
-                </svg>
-              </span>{" "}
-              in Kraków, Poland.
+              Made with <span className="icon icon-heart">♥</span> in Ondo,
+              Nigeria
             </p>
           </div>
         </div>

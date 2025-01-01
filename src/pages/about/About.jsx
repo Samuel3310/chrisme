@@ -7,19 +7,20 @@ const AboutTop = () => (
         <div className="col-sm-6-6 col-md-12-12 col-smd-10-12 col-smd-offset-1-12 col-lg-10-12 col-lg-offset-1-12 text-left-center">
           <h5>A few words about me</h5>
           <h1>
-            I’m Damian Watracz, a multidisciplinary designer who focuses on
+            I’m Christian Moses, a multidisciplinary designer who focuses on
             telling my clients’ stories visually, through enjoyable and
-            meaningful experiences. I specialize in responsive websites and
-            functional user interfaces.
+            meaningful designs. I specialize in Graphic and Brand Identity
+            design.
           </h1>
         </div>
         <div className="col-sm-6-6 col-md-12-12 col-smd-10-12 col-smd-offset-1-12 col-lg-8-12 col-lg-offset-2-12 text-left-center">
           <h3 className="header-light">
-            Over the past 9 years I have been working with big companies and
-            rising startups around the world as a designer and art director,
-            working solo and leading small design teams. In my spare time I{" "}
+            As a Graphic and Brand designer with over 7 years of experience,
+            I've served as an brand director and designer, collaborating with
+            major companies and emerging startups to help them realize their
+            full potential and attract new customers.
             <a
-              href="https://www.instagram.com/watraczistraveling/"
+              href="https://www.instagram.com/mochris_creations/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -27,7 +28,7 @@ const AboutTop = () => (
             </a>{" "}
             and{" "}
             <a
-              href="https://www.watraczistraveling.com/"
+              href="https://www.instagram.com/mochris_creations/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -97,13 +98,11 @@ const AboutServicesTools = () => {
           <div className="col-sm-6-6 col-md-5-12 col-md-offset-05-12 col-smd-5-12 col-smd-offset-05-12 col-lg-4-12 col-lg-offset-1-12">
             <h5>Design services</h5>
             <h3>
-              Art direction<em> / </em>
-              Web &amp; mobile<em> / </em>
-              Brand identity<em> / </em>
-              UX &amp; UI<em> / </em>
-              Iconography<em> / </em>
-              Animation<em> / </em>
-              Photography
+              Photography Print Design <em> / </em> Logo design <em> / </em>
+              Brand identity <em> / </em> Brand Guideline design /Motion
+              Graphics <em> / </em> Social Media Graphics <em> / </em>
+              Iconography <em> / </em> Logo Animation <em> / </em> Lightroom{" "}
+              <em> / </em> Packaging Design
             </h3>
           </div>
           <div className="col-sm-6-6 col-md-5-12 col-md-offset-1-12 col-smd-5-12 col-smd-offset-1-12 col-lg-4-12 col-lg-offset-2-12">
@@ -111,12 +110,10 @@ const AboutServicesTools = () => {
             <h3>
               Photoshop<em> / </em>
               Illustrator<em> / </em>
-              Sketch<em> / </em>
-              XD<em> / </em>
-              InVision<em> / </em>
-              UXPin<em> / </em>
+              Indesign<em> / </em>
               After Effects<em> / </em>
               Premiere Pro<em> / </em>
+              Canva<em> / </em>
               Lightroom
             </h3>
           </div>
@@ -133,18 +130,18 @@ const ExperienceSection = () => {
         <div className="row animate--me animate--init">
           <div className="col-sm-6-6 col-md-12-12 col-smd-10-12 col-smd-offset-1-12 col-lg-8-12 col-lg-offset-2-12 text-left-center">
             <h5>Experience</h5>
-            <h1>Over 9 years of experience</h1>
+            <h1>Over 7 years of experience</h1>
             <h3 className="header-light">
               I’ve been lucky enough to establish relationships with amazing
               clients from all over the world, ranging from individual clients,
               through up-and-coming startups, to multinational companies. For
               more details, head over to my{" "}
               <a
-                href="https://www.linkedin.com/in/damianwatracz"
+                href="https://www.instagram.com/mochris_creations/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                LinkedIn profile
+                Instagram profile
               </a>
               .
             </h3>
@@ -154,7 +151,7 @@ const ExperienceSection = () => {
         <div className="list animate--me animate--init">
           <div className="line">
             <div>
-              <h4 className="header-dark">Damian Watracz Design</h4>
+              <h4 className="header-dark">Mochris Creations</h4>
             </div>
             <div>
               <h4 className="header-light">
@@ -162,95 +159,88 @@ const ExperienceSection = () => {
               </h4>
             </div>
             <div>
-              <h4 className="header-light">October 2010 — Present</h4>
+              <h4 className="header-light">October 2017 — Present</h4>
             </div>
           </div>
           <div className="line">
             <div>
-              <h4 className="header-dark">James Cook Media</h4>
+              <h4 className="header-dark">Social Realtr</h4>
             </div>
             <div>
-              <h4 className="header-light">Product / Web / UI / UX Designer</h4>
+              <h4 className="header-light">Senior Content Creator</h4>
             </div>
             <div>
-              <h4 className="header-light">June 2018 — Present</h4>
-            </div>
-          </div>
-          <div className="line">
-            <div>
-              <h4 className="header-dark">One More Time</h4>
-            </div>
-            <div>
-              <h4 className="header-light">Co-Founder, Web / UI Designer</h4>
-            </div>
-            <div>
-              <h4 className="header-light">December 2015 — Present</h4>
+              <h4 className="header-light">April 2024 — Present</h4>
             </div>
           </div>
           <div className="line">
             <div>
-              <h4 className="header-dark">Estimote via Pilot</h4>
+              <h4 className="header-dark">Midhey Enterprise</h4>
             </div>
             <div>
-              <h4 className="header-light">Web / UI / UX Designer</h4>
+              <h4 className="header-light">Lead Designer</h4>
             </div>
             <div>
-              <h4 className="header-light">February 2016 — April 2016</h4>
-            </div>
-          </div>
-          <div className="line">
-            <div>
-              <h4 className="header-dark">James Cook Publishing</h4>
-            </div>
-            <div>
-              <h4 className="header-light">Art Director, Web / UI Designer</h4>
-            </div>
-            <div>
-              <h4 className="header-light">February 2015 — August 2015</h4>
+              <h4 className="header-light">March 2020 — Present</h4>
             </div>
           </div>
           <div className="line">
             <div>
-              <h4 className="header-dark">Fitmo</h4>
+              <h4 className="header-dark">Doati Group </h4>
             </div>
             <div>
-              <h4 className="header-light">Web / UI / UX Designer</h4>
+              <h4 className="header-light">
+                Lead Designer and Content Creator
+              </h4>
             </div>
             <div>
-              <h4 className="header-light">October 2013 — April 2014</h4>
-            </div>
-          </div>
-          <div className="line">
-            <div>
-              <h4 className="header-dark">Line2</h4>
-            </div>
-            <div>
-              <h4 className="header-light">UI / UX Designer</h4>
-            </div>
-            <div>
-              <h4 className="header-light">March 2012 — November 2013</h4>
+              <h4 className="header-light">March 2020 — Present</h4>
             </div>
           </div>
           <div className="line">
             <div>
-              <h4 className="header-dark">OpenDrive</h4>
+              <h4 className="header-dark">Ademola Golded Interiors</h4>
             </div>
             <div>
-              <h4 className="header-light">Web / UI / UX Designer</h4>
+              <h4 className="header-light">
+                Brand Expert and Lead Creative Designer
+              </h4>
             </div>
             <div>
-              <h4 className="header-light">October 2011 — May 2014</h4>
+              <h4 className="header-light">August 2018 — February 2019</h4>
             </div>
           </div>
           <div className="line">
             <div>
-              <h4 className="header-dark">Invent Group</h4>
+              <h4 className="header-dark">Miso Group</h4>
             </div>
             <div>
-              <h4 className="header-light">Co-Founder, Web / UI Designer</h4>
+              <h4 className="header-light">Graphic Designer</h4>
             </div>
             <div>
-              <h4 className="header-light">October 2010 — December 2012</h4>
+              <h4 className="header-light">May 2018 — November 2018</h4>
+            </div>
+          </div>
+          <div className="line">
+            <div>
+              <h4 className="header-dark">Emmygold Exchange</h4>
+            </div>
+            <div>
+              <h4 className="header-light">Brand Identity Designer</h4>
+            </div>
+            <div>
+              <h4 className="header-light">January 2018 — July 2018</h4>
+            </div>
+          </div>
+          <div className="line">
+            <div>
+              <h4 className="header-dark">Golded Express</h4>
+            </div>
+            <div>
+              <h4 className="header-light">Brand Designer</h4>
+            </div>
+            <div>
+              <h4 className="header-light">March 2018 — May 2018</h4>
             </div>
           </div>
         </div>
@@ -508,7 +498,7 @@ const AboutPage = () => (
     <AboutServicesTools />
     <ExperienceSection />
     <ClientsSection />
-    <RecognitionSection />
+    {/* <RecognitionSection /> */}
     <QuickContact />
   </div>
 );

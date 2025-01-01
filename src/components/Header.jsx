@@ -17,13 +17,13 @@ const HomePage = () => {
       <div className="wrapper">
         <div className="row">
           <div className="main-copy">
-            <h5>Damian Watracz</h5>
-            <h1 className="large">Website and user interface designer</h1>
+            <h5>Christian Moses</h5>
+            <h1 className="large">Graphic and brand Identity designer</h1>
             <h3 className="header-light">
-              Over the past 9 years, as an art director and designer, I’ve
-              worked with big companies and up-and-coming startups to
-              successfully help them reach their full potential and attract new
-              customers.
+              As a Graphic and Brand designer with over 7 years of experience,
+              I've served as an brand director and designer, collaborating with
+              major companies and emerging startups to help them realize their
+              full potential and attract new customers.
             </h3>
 
             <nav className="links">
