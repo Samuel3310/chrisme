@@ -11,16 +11,12 @@ const NavBar = () => {
   const toggleNav = () => {
     setIsOpen(!isOpen);
   };
-
   const links = [
     { name: "Projects", href: "/" },
     { name: "About me", href: "/about" },
     { name: "Contact", href: "/contact" },
-    {
-      name: "Instagram",
-      href: " https://www.instagram.com/mochris_creations/",
-    },
-    { name: "Whatsapp", href: " https://wa.me/2347012143026" },
+    { name: "Instagram", href: "https://www.instagram.com/mochris_creations/" },
+    { name: "Whatsapp", href: "https://wa.me/2347012143026" },
     { name: "Behance", href: "https://www.behance.net/christianmoses4" },
     { name: "Dribble", href: "https://dribbble.com/Mochris-Creations" },
   ];
